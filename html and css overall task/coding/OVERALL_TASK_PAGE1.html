@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Fresh Fruit Juice Shop</title>
+
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #fff8f0;
+            color:#333;
+        }
+
+        header {
+            background:orange;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav {
+            background:#ff9800;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a {
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        .hero {
+            height:350px;
+            background:url('C:\Users\shyam\Downloads\juce.jpg')
+            center/cover no-repeat;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:white;
+            text-shadow:2px 2px 5px black;
+            font-size:40px;
+            font-weight:bold;
+        }
+
+        .menu {
+            padding:40px 20px;
+            text-align:center;
+        }
+
+        .menu h2 {
+            margin-bottom:30px;
+            color:#ff6600;
+        }
+
+        .juice-container {
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .card {
+            background:white;
+            width:250px;
+            border-radius:10px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.2);
+            overflow:hidden;
+            transition:0.3s;
+        }
+
+        .card img {
+            width:100%;
+            height:180px;
+            object-fit:cover;
+        }
+
+        .card h3 {
+            margin:15px 0 10px;
+        }
+
+        .card p {
+            padding:0 15px 15px;
+        }
+
+        .price {
+            color:green;
+            font-size:20px;
+            font-weight:bold;
+            margin-bottom:15px;
+        }
+
+        .btn {
+            display:inline-block;
+            margin-bottom:20px;
+            padding:10px 20px;
+            background:#ff9800;
+            color:white;
+            text-decoration:none;
+            border-radius:5px;
+        }
+
+        footer {
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fresh Fruit Juice Shop</h1>
+        <p>Healthy • Fresh • Natural</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        Fresh Juice Everyday 🍊
+    </section>
+
+    <section class="menu">
+        <h2>Our Popular Juices</h2>
+
+        <div class="juice-container">
+
+            <div class="card">
+                <img src="C:\Users\shyam\Downloads\ORANGE.jpg" alt="">
+                <h3>Orange Juice</h3>
+                <p>Freshly squeezed orange juice full of vitamin C.</p>
+                <div class="price">₹80</div>
+                <a href="C:\Users\shyam\OneDrive\Documents\javascript\OVERALL TASK PAGE 2.html" class="btn">Order Now</a>
+            </div>
+
+            <div class="card">
+                <img src="C:\Users\shyam\Downloads\mango.jpg" alt="Mango Juice">
+                <h3>Mango Juice</h3>
+                <p>Sweet and delicious mango juice made from ripe mangoes.</p>
+                <div class="price">₹100</div>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+
+            <div class="card">
+                <img src="C:\Users\shyam\Downloads\watermelon.png" alt="Watermelon Juice">
+                <h3>Watermelon Juice</h3>
+                <p>Cool and refreshing watermelon juice for summer.</p>
+                <div class="price">₹70</div>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Fresh Fruit Juice Shop | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

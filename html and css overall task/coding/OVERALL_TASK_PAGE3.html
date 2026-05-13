@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange Juice Cart</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #fff8f0;
+        }
+
+        header {
+            background: orange;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .cart-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            margin-bottom: 25px;
+            color: #ff6600;
+            text-align: center;
+        }
+
+        .cart-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .cart-item img {
+            width: 150px;
+            border-radius: 10px;
+        }
+
+        .item-details {
+            flex: 1;
+        }
+
+        .item-details h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .price {
+            color: green;
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .quantity {
+            margin-top: 10px;
+        }
+
+        .quantity input {
+            width: 60px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .total {
+            text-align: right;
+            font-size: 28px;
+            color: #ff6600;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: orange;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #e68900;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fresh Fruit Juice Shop</h1>
+        <p>Your Cart 🛒</p>
+    </header>
+
+    <div class="cart-container">
+
+        <h2>Shopping Cart</h2>
+
+        <div class="cart-item">
+
+            <img src="c:\Users\shyam\Downloads\ORANGE.jpg" alt="Orange Juice">
+
+            <div class="item-details">
+                <h3>Orange Juice 🍊</h3>
+
+                <p>Fresh and healthy orange juice full of Vitamin C.</p>
+
+                <div class="price">₹80</div>
+
+                <div class="quantity">
+                    Quantity:
+                    <input type="number" value="1" min="1">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="total">
+            Total: ₹80
+        </div>
+
+        <div class="center">
+            <a href="C:\Users\shyam\OneDrive\Documents\javascript\OVERALL TASK PAGE 4.html" class="btn">Add to card</a>
+        </div>
+
+    </div>
+
+    <footer>
+</body>
+</html>
