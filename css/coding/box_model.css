@@ -1,0 +1,7 @@
+div {
+    background-color: aqua;
+    width: 300px;
+    border: 15px solid rgb(0, 18, 77);
+    padding: 50px;
+    margin: 100px;
+}
