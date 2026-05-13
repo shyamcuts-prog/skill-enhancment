@@ -1,0 +1,10 @@
+<!-- HTML Paragraph Tag Example -->
+
+<!DOCTYPE html>
+<html lang="en">
+</head>
+<body>
+    <p>this is a paragraph.</p>
+    <p>this is a paragraph to.</p>
+</body>
+</html>

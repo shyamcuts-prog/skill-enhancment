@@ -1,0 +1,16 @@
+<!-- HTML Pre Tag & Line Break Example -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>An AI paragraph generator is a tool that uses natural language processing (NLP) to instantly create, rewrite,<br>
+        or expand text based on user prompts, helping overcome writer's block and speed up content creation. <br>
+        Popular tools like QuillBot, Ahrefs, and ParagraphAI generate coherent, plagiarism-free, <br>
+        and tone-customizable text for blogs, emails, and reports </pre>
+</body>
+</html>

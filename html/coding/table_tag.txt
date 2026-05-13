@@ -1,0 +1,20 @@
+<!-- HTML Table Example -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+<th>ronaldo</th>
+<th>neymar</th>
+<th>messi</th>
+        </tr>
+    </table>
+<td>portugal</td>
+<td>brazil</td>
+<td>argentina</td>
+</body>
+</html>
