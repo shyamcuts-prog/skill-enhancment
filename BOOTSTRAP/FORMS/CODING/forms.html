@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href=c:\Users\shyam\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\css\bootstrap.min.css>
+</head>
+<body>            
+<div class="container mt-3">
+  <h2>Stacked form</h2>
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="mb-3">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
+
+<div class="container mt-3">
+  <h2>Select Menu</h2>
+  <p>To style a select menu in Bootstrap 5, add the .form-select class to the select element:</p>
+  <form action="/action_page.php">
+    <label for="sel1" class="form-label">Select list (select one):</label>
+    <select class="form-select" id="sel1" name="sellist1">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+    </select>
+    <br>
+    
+    <label for="sel2" class="form-label">Mutiple select list (hold shift to select more than one):</label>
+    <select multiple class="form-select" id="sel2" name="sellist2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</div>
+
+
+<div class="container mt-3">
+  <h2>Select Menu Size</h2>
+  <p>Use the .form-select-lg or .form-select-sm class to change the size of the select menu:</p>
+  <form>
+   <select class="form-select form-select-lg">
+     <option>1</option>
+     <option>2</option>
+     <option>3</option>
+     <option>4</option>
+   </select>
+   
+   <select class="form-select mt-3">
+     <option>1</option>
+     <option>2</option>
+     <option>3</option>
+     <option>4</option>
+   </select>
+   
+   <select class="form-select form-select-sm mt-3">
+     <option>1</option>
+     <option>2</option>
+     <option>3</option>
+     <option>4</option>
+   </select>
+  </form>    
+</div>
+
+<div class="container mt-3">
+  <h2>Select Menu Size</h2>
+  <p>Use the disabled attribute to disable the select menu:</p>
+  <form>
+   <select class="form-select" disabled>
+     <option>1</option>
+     <option>2</option>
+     <option>3</option>
+     <option>4</option>
+   </select>
+  </form>    
+</div>
+
+<div class="container mt-3">
+  <h2>Checkboxes</h2>
+  <p>To style a checkbox, use a container element with a .form-check class, and add .form-check-label to labels, and .form-check-input to the input with type="checkbox".</p>
+  <p>The form below contains three checkboxes. The first option is checked by default, and the last option is disabled:</p>
+  <form action="/action_page.php">
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+      <label class="form-check-label" for="check1">Option 1</label>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+      <label class="form-check-label" for="check2">Option 2</label>
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" disabled>
+      <label class="form-check-label">Option 3</label>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</div>
+
+<div class="container mt-3">
+  <h2>Radio buttons</h2>
+  <p>The form below contains three radio buttons. The first option is checked by default, and the last option is disabled:</p>
+  <form action="/action_page.php">
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+      <label class="form-check-label" for="radio1">Option 1</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+      <label class="form-check-label" for="radio2">Option 2</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" disabled>
+      <label class="form-check-label">Option 3</label>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</div>
+
+<div class="container mt-3">
+  <h2>Toggle Switch</h2>
+  <p>Try to submit the form with and without toggling the switch.</p>
+  <form action="/action_page.php">
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
+      <label class="form-check-label" for="mySwitch">Dark Mode</label>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</div>
+
+<div class="container mt-3">
+  <h2>Custom Range</h2>
+  <p>To create a custom range menu, add the .form-range class to the input element with type="range":</p>
+  <form action="/action_page.php">
+    <label for="customRange" class="form-label">Custom range</label>
+    <input type="range" class="form-range" id="customRange" name="points">
+    
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</div>
+
+<div class="container mt-3">
+  <h2>Input Group</h2>
+  <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind the input field as a "help text".</p>
+  <p>Use the .input-group-text class to style the specified help text.</p>
+  
+  <form action="/action_page.php">
+    <div class="input-group mb-3">
+      <span class="input-group-text">@</span>
+      <input type="text" class="form-control" placeholder="Username" name="usrname">
+    </div>
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Your Email" name="email">
+      <span class="input-group-text">@example.com</span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<div class="container mt-3">
+  <h2>Floating Labels - Inputs</h2>
+  <p>Click inside the input field to see the floating label effect:</p>
+  <form action="/action_page.php">
+    <div class="form-floating mb-3 mt-3">
+      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+      <label for="email">Email</label>
+    </div>
+    <div class="form-floating mt-3 mb-3">
+      <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      <label for="pwd">Password</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<div class="container mt-3">
+  <h3>Form Validation</h3>
+  <p>Try to submit the form.</p>
+    
+  <form action="/action_page.php" class="was-validated">
+    <div class="mb-3 mt-3">
+      <label for="uname" class="form-label">Username:</label>
+      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="mb-3">
+      <label for="pwd" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-check mb-3">
+      <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+      <label class="form-check-label" for="myCheck">I agree on blabla.</label>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Check this checkbox to continue.</div>
+    </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+<script src="c:\Users\shyam\Downloads\bootstrap-5.0.2-dist\bootstrap-5.0.2-dist\js\bootstrap.bundle.min.js"></script>
+</html>
