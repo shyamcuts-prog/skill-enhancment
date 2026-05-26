@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="c:\angular-1.8.2\angular.min.js"></script>
+<body>
+    <div ng-app="my app" ng-controller="formctrl">
+        <form>
+            first name: <br>
+            <input type="text" ng-module="user.firstname"><br>
+            last name : <br>
+            <input type="text" ng-module="user.lastname"><br><br>
+            <button ng-click="reset()">RESET</button>
+        </form>
+        <p>form = {{user}}</p>
+        <p>master = {{mast}}</p>
+    </div>
+<script>
+    var app = angular.module('myapp',[]);
+    app.controller('formctrl',function($scope){
+        $scope.master=(FirstName :"john",lastname:"doe");
+        $scope.reset=function(){
+            $scope.user=angular.copy($scope.master);
+        };
+$scope.reset();
+    });
+</script>
+</body>
+</html>
